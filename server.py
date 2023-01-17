@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-# Emre Ovunc
-# info@emreovunc.com
-# Python3 SYN Flood Tool
-
 from os import system
 from sys import stdout
 from scapy.all import *
@@ -16,7 +11,7 @@ numberOfThreads = 6
 def main():
 	#dstIP,dstPort = info()
 	server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	server.bind(("127.0.0.1", 8181))
+	server.bind(("127.0.0.1", 8181)) #Your server's ip and port
 	threads = []
 	while(True):
 		try:
