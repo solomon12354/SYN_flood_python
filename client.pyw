@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-# Emre Ovunc
-# info@emreovunc.com
-# Python3 SYN Flood Tool
-
 from os import system
 from sys import stdout
 from scapy.all import *
